@@ -16,7 +16,8 @@ public class Arrays {
 		intArray();
 		stringArray();
 		doubleArray();
-		Employee employee = new Employee("","",1);
+		Employee employee = new Employee("billgates","the US",1);
+		employee.mailCheck();
 	}
 	
 	public static void intArray() {
